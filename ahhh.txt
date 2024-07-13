@@ -1,0 +1,100 @@
+/meu-repositorio
+  |-- index.html
+  |-- css/
+      |-- styles.css
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Musical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0e4e3; /* cor fria */
+            color: #333;
+        }
+        header {
+            background-color: #6b8e91; /* cor fria */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .music, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #52796f; /* cor fria */
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #52796f; /* cor fria */
+        }
+        footer {
+            background-color: #6b8e91; /* cor fria */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio Musical</h1>
+        <nav>
+            <a href="#about">Sobre Mim</a>
+            <a href="#music">Música</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Breve biografia sobre você.</p>
+            <img src="sua-foto.jpg" alt="Sua Foto" style="width:150px;">
+        </section>
+        <section id="music" class="music">
+            <h2>Música</h2>
+            <p>Lista de suas músicas ou álbuns.</p>
+            <!-- Incluir players de música, como do Spotify -->
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projetos</h2>
+            <p>Descrição de seus projetos musicais.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <div class="social-links">
+                <h3>Redes Sociais</h3>
+                <a href="https://instagram.com">Instagram</a>
+                <a href="https://tiktok.com">TikTok</a>
+                <a href="https://facebook.com">Facebook</a>
+                <a href="https://youtube.com">YouTube</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
